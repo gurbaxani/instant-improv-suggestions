@@ -1,8 +1,8 @@
 <div class="h-full grid place-items-center mt-20">
 
-    <div class="block max-w-sm p-6 bg-green-100 border-gray-900 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 w-3/4 text-center border-4 border-b-8 border-r-8 py-20">
+    <div class="block max-w-sm p-6 bg-green-100 border-gray-900 rounded-lg shadow hover:bg-gray-100 w-3/4 text-center border-4 border-b-8 border-r-8 py-20">
 
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white capitalize"> {!! nl2br($suggestion) !!}</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 capitalize"> {!! nl2br($suggestion) !!}</h5>
 
     </div>
     <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6 fixed bottom-20">
