@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+h5 {
     font-family: 'Lexend Mega', sans-serif;
+}
+
+button {
+    font-family: 'Public Sans', sans-serif
 }
