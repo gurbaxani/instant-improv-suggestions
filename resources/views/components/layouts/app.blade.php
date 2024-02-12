@@ -5,6 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AImprov - AI-Generated Improv Suggestions</title>
+    <meta name="keywords" content="Improv, Comedy, Suggestions" />
+    <meta name="description" content="An app that gives you hundreds of random suggestions for practicing with your Improv comedy group." />
+    <meta name="author" content="Gurbax" />
+    <meta property="og:image" content="{{ asset('iis.png') }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1080">
+    <meta property="og:image:height" content="1080">
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     @vite('resources/css/app.css')
     <link rel="preconnect" href="https://fonts.googleapis.com">

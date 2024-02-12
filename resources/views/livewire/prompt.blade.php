@@ -1,11 +1,11 @@
 <div class="h-full grid place-items-center mt-20">
 
-    <div class="block max-w-sm p-6 bg-green-100 border-gray-900 rounded-lg shadow hover:bg-gray-100 w-3/4 text-center border-4 border-b-8 border-r-8 py-20">
+    <div class="block max-w-sm p-6 bg-green-100 border-gray-900 rounded-lg shadow hover:bg-gray-100 w-3/4 items-stretch text-center border-4 border-b-8 border-r-8 py-20">
 
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 capitalize"> {!! nl2br($suggestion) !!}</h5>
 
     </div>
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6 fixed bottom-10">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6">
 
         <button wire:click="object" class="relative inline-block text-lg group">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
