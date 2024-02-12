@@ -5,7 +5,7 @@
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 capitalize"> {!! nl2br($suggestion) !!}</h5>
 
     </div>
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6 fixed bottom-20">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6 fixed bottom-10">
 
         <button wire:click="object" class="relative inline-block text-lg group">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
