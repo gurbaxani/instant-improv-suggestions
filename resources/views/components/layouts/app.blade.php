@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AImprov - AI-Generated Improv Suggestions</title>
-    <meta name="keywords" content="Improv, Comedy, Suggestions" />
-    <meta name="description" content="An app that gives you hundreds of random suggestions for practicing with your Improv comedy group." />
+    <title>Improv Suggestions In An Instant</title>
+    <meta name="keywords" content="Improv, Comedy, Suggestions, for Practice, Rehearsals" />
+    <meta name="description" content="An app that gives you hundreds of random suggestions for practicing with your Improv comedy team." />
     <meta name="author" content="Gurbax" />
     <meta property="og:image" content="{{ asset('iis.png') }}">
     <meta property="og:image:type" content="image/png">
