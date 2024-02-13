@@ -2,12 +2,12 @@
 
     <div class="block max-w-sm p-6 bg-green-100 border-gray-900 rounded-lg shadow hover:bg-gray-100 w-3/4 items-stretch text-center border-4 border-b-8 border-r-8 py-20">
 
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 capitalize"> {!! nl2br($suggestion) !!}</h5>
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 capitalize suggestion-text overflow-y-scroll"> {!! nl2br($suggestion) !!}</h5>
 
     </div>
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6">
+    <div class="grid grid-cols-2 gap-4 sm:grid-cols-4 xl:grid-cols-5 bg-red-500pr-4 mt-6 fixed bottom-10">
 
-        <button wire:click="object" class="relative inline-block text-lg group">
+        <button wire:click="object" class="relative inline-block text-lg group button">
             <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
                 <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
                 <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-gray-900 group-hover:-rotate-180 ease"></span>
