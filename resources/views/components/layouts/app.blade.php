@@ -21,7 +21,7 @@
 
 <body class="bg-yellow-400">
     <div x-data="{ open: false }" class="hamburger">
-        <div class="container mx-auto flex justify-between items-center p-4">
+        <div class="container mx-auto flex justify-between items-center p-2">
             <div class="font-bold text-xl">Improv Suggestions</div>
             <button @click="open = !open" class="lg:hidden ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
