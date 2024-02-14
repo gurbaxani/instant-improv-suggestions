@@ -18,6 +18,10 @@ button {
     /* Other styles */
 }
 
+.hamburger {
+    font-family: 'Public Sans', sans-serif
+}
+
 .suggestion-text {
     /* font-size: 1.5rem; */
     /* Starting font size */

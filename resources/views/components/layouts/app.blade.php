@@ -20,7 +20,35 @@
 </head>
 
 <body class="bg-yellow-400">
+    <div x-data="{ open: false }" class="hamburger">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="font-bold text-xl">Improv Suggestions</div>
+            <button @click="open = !open" class="lg:hidden ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                </svg>
+            </button>
+            <div class="hidden lg:flex">
+                <ul class="lg:flex space-x-4">
+                    <li><a class="" href="https://forms.gle/UKBw5jGcYGNj5B948" target="_blank">Add A Suggestion</a></li>
+                    <li><a class="" href="https://gurbax.click">Contact</a></li>
+                    <li><a class="" href="https://github.com/gurbaxani/instant-improv-suggestions">Source Code</a></li>
+                </ul>
+            </div>
+        </div>
+        <div x-show="open" x-transition:enter="transform ease-out duration-300 transition-translate-opacity" x-transition:enter-start="translate-y-10 opacity-0" x-transition:enter-end="translate-y-0 opacity-100" x-transition:leave="transform ease-in duration-300 transition-translate-opacity" x-transition:leave-start="translate-y-0 opacity-100" x-transition:leave-end="translate-y-10 opacity-0" class="lg:hidden">
+            <ul class="text-right pr-4">
+                <li><a class="" href="https://forms.gle/UKBw5jGcYGNj5B948" target="_blank">Add A Suggestion</a></li>
+                <li><a class="" href="https://gurbax.click">Contact</a></li>
+                <li><a class="" href="https://github.com/gurbaxani/instant-improv-suggestions" target="_blank">Source Code</a></li>
+            </ul>
+        </div>
+    </div>
+
     {{ $slot }}
 </body>
+
+
+
 
 </html>
